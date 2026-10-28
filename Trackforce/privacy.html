@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trackforce Privacy Policy</title>
+<meta name="description" content="How Trackforce handles your data: it stays on your phone, and only leaves it for the features you choose.">
+<style>
+  :root { --bg: #fbf8f6; --card: #ffffff; --ink: #1d171b; --ink2: #5d5359; --line: #e7dfe0; --accent: #b0566a; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #121014; --card: #1b181d; --ink: #f2edf0; --ink2: #b3a9b0; --line: #2d282f; --accent: #e9a7b5; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 18px 64px; }
+  header { margin-bottom: 28px; }
+  .brand { font-weight: 700; letter-spacing: .02em; color: var(--accent); text-decoration: none; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 10px 0 6px; }
+  h2 { font-size: 20px; margin: 34px 0 8px; }
+  h3 { font-size: 16px; margin: 20px 0 4px; }
+  p, li { color: var(--ink); }
+  .meta { color: var(--ink2); font-size: 14px; margin: 0; }
+  .summary { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 16px 18px; margin: 18px 0 8px; }
+  .summary li { margin: 4px 0; }
+  table { width: 100%; border-collapse: collapse; font-size: 15px; margin: 10px 0; }
+  th, td { text-align: left; vertical-align: top; padding: 9px 10px; border-bottom: 1px solid var(--line); }
+  th { color: var(--ink2); font-weight: 600; }
+  a { color: var(--accent); }
+  nav { margin-top: 40px; padding-top: 18px; border-top: 1px solid var(--line); font-size: 14px; color: var(--ink2); }
+  nav a { margin-right: 14px; }
+  .scroll { overflow-x: auto; }
+</style>
+</head>
+<body>
+<main>
+<header>
+  <a class="brand" href="/">Trackforce</a>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Effective 26 October 2026</p>
+</header>
+
+<div class="summary">
+  <strong>The short version</strong>
+  <ul>
+    <li>Your money data lives on your phone, in an encrypted database. You don't need an account to use Trackforce.</li>
+    <li>Bank SMS and payment notifications are read on your phone. Their text never leaves it.</li>
+    <li>Data leaves your phone only for features listed below, most of which you choose to turn on.</li>
+    <li>No ads, no analytics, no trackers. We don't sell or share your data.</li>
+    <li>You can delete your account, and everything we hold for it, at any time.</li>
+  </ul>
+</div>
+
+<h2>1. Who we are</h2>
+<p>Trackforce is made by AlphaDays ("we", "us"), based in India. For anything about this policy or your data, write to
+<a href="mailto:thealphadays@gmail.com">thealphadays@gmail.com</a>.</p>
+
+<h2>2. What stays on your phone</h2>
+<p>Everything you put into Trackforce — accounts, entries, budgets, goals, investments, loans, people, notes and the
+documents and receipt photos you attach — is stored on your phone in an encrypted database. We don't receive it.
+The app lock (PIN or fingerprint) and its settings also stay on your phone.</p>
+
+<h2>3. SMS and notifications</h2>
+<p>If you allow it, Trackforce reads bank and card SMS (Android's SMS permissions) to turn transaction messages into
+drafts you confirm. If you choose notification capture instead, it reads notifications from the payment apps you pick.</p>
+<ul>
+  <li>Messages are read and understood <strong>on your phone</strong>. Their text is never sent to us or anyone else.</li>
+  <li>Only messages from banks and payment services are used. One-time passwords, promotions and personal messages are ignored.</li>
+  <li>Once you've dealt with a message, its original text is kept on your phone for the period you choose (none, 30, 90 or 365 days), then deleted.</li>
+  <li>To read new bank formats, the app downloads updated message rules from our server. That's a download only — nothing about you is sent.</li>
+</ul>
+<p>You can turn SMS or notification access off at any time in the app or in Android's settings.</p>
+
+<h2>4. Other permissions</h2>
+<ul>
+  <li><strong>Camera</strong> — to scan another phone's code when you connect them, and to photograph receipts. Photos stay on your phone.</li>
+  <li><strong>Notifications</strong> — reminders about bills, budgets and drafts, created on your phone.</li>
+  <li><strong>Display over other apps</strong> (optional) — the floating bubble for quick entries.</li>
+  <li><strong>Fingerprint / face</strong> (optional) — unlocks the app; handled by Android, never seen by us.</li>
+</ul>
+
+<h2>5. When data leaves your phone</h2>
+<div class="scroll">
+<table>
+  <tr><th>Feature</th><th>What's sent</th><th>To whom, where</th></tr>
+  <tr><td>Signing in (optional)</td><td>Your Google account's email, name and a user ID</td><td>Google Firebase Authentication</td></tr>
+  <tr><td>Your account record</td><td>Email, whether you have Premium, when you last signed in and backed up, and your backup key</td><td>Google Cloud Firestore, Mumbai (India)</td></tr>
+  <tr><td>Premium purchases</td><td>Payment is handled entirely by Google Play — we never see card or UPI details. Your user ID, purchase and subscription details, country, app version and Android version go to RevenueCat, which manages subscriptions for us. We keep a copy of your subscription status (plan, renewal, expiry, and each purchase event with its price and currency).</td><td>Google Play; RevenueCat (USA); Google Cloud Firestore, Mumbai (India)</td></tr>
+  <tr><td>Cloud backup (Premium, off until you turn it on)</td><td>An encrypted copy of your Trackforce data, including documents, once a month</td><td>Google Cloud Storage (USA)</td></tr>
+  <tr><td>Live gold and silver prices (Premium)</td><td>A request for the day's prices — nothing about you</td><td>gold-api.com</td></tr>
+  <tr><td>Connecting another phone</td><td>Only what you choose to share, directly between your two phones over your local network</td><td>Your other phone</td></tr>
+  <tr><td>Files you export</td><td>CSV files and backup files you create</td><td>Wherever you choose to send or save them</td></tr>
+</table>
+</div>
+
+<h3>About cloud backup</h3>
+<p>Your backup is encrypted on your phone (AES-256-GCM) before it's uploaded, with a random key created for your
+account. So that you can restore on a new phone, that key is stored with your account record. This protects the
+backup file if the file alone were ever exposed, but it is not "end-to-end" encryption that even we can't open.
+Only your latest backup is kept. Turning cloud backup off stops new backups; deleting your account deletes the backup.</p>
+
+<h3>About the services we use</h3>
+<p>Google (Firebase, Cloud Firestore, Cloud Storage, Google Play) and RevenueCat process this data for us, under their
+own privacy terms and security practices. As with any internet service, they and gold-api.com can see the IP address
+your request comes from.</p>
+
+<h2>6. What we don't do</h2>
+<ul>
+  <li>We don't show ads or include advertising, analytics or tracking tools.</li>
+  <li>We don't sell, rent or share your data with anyone for their own use.</li>
+  <li>We never ask for your bank login, card number or UPI PIN, and Trackforce can't move money.</li>
+  <li>We don't collect crash reports.</li>
+</ul>
+
+<h2>7. How long we keep data</h2>
+<ul>
+  <li><strong>On your phone:</strong> until you delete it, erase the app's data, or uninstall the app.</li>
+  <li><strong>Account record, subscription records and cloud backup:</strong> until you delete your account.</li>
+  <li><strong>Google Play</strong> keeps its own records of purchases under its own policies, which we don't control.</li>
+</ul>
+
+<h2>8. Deleting your account</h2>
+<p>In the app: <strong>Settings → Delete account</strong>. This deletes your sign-in, your account record, your cloud
+backup, your subscription records and your RevenueCat customer record. The data on your phone isn't part of your
+account and stays until you erase it (<strong>Settings → Backup → Delete all data</strong>) or uninstall the app.
+If you can't use the app, see <a href="/delete-account">how to ask us to delete your account</a>.</p>
+<p>Deleting your account doesn't cancel a Premium subscription — Google Play bills it. Cancel it in Google Play
+(Play Store → Payments &amp; subscriptions → Subscriptions).</p>
+
+<h2>9. Your rights</h2>
+<p>You can ask to see, correct or delete the personal data we hold about you, withdraw your consent by turning a
+feature or permission off, and raise a complaint. This includes your rights under India's Digital Personal Data
+Protection Act, 2023. Write to <a href="mailto:thealphadays@gmail.com">thealphadays@gmail.com</a> from the email
+address of your account; we'll reply as soon as we can and within the time the law requires.</p>
+
+<h2>10. Security</h2>
+<p>Your data is encrypted on your phone, connections to our services use HTTPS, and access rules make sure each
+account can reach only its own records and backup. No system is perfectly secure, so please keep your phone locked
+and use the app lock.</p>
+
+<h2>11. Children</h2>
+<p>Trackforce is not intended for anyone under 18, and we don't knowingly collect data from children.</p>
+
+<h2>12. Changes to this policy</h2>
+<p>If we change this policy, we'll update this page and its date. If a change affects how your data leaves your
+phone, we'll tell you in the app before it takes effect.</p>
+
+<h2>13. Contact</h2>
+<p>AlphaDays · <a href="mailto:thealphadays@gmail.com">thealphadays@gmail.com</a></p>
+
+<nav><a href="/">Trackforce</a><a href="/terms">Terms of Service</a><a href="/delete-account">Delete your account</a></nav>
+</main>
+</body>
+</html>
